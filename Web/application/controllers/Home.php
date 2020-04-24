@@ -13,17 +13,17 @@ class Home extends CI_Controller {
 	
 	public function index()
 	{
-		$this->load->view('vhome');
+		$this->load->view('admin/vhome');
     }
     
     public function tables()
     {
-        $this->load->view('vtables');
+        $this->load->view('admin/vtables');
 	}
 
 	public function charts()
     {
-        $this->load->view('vcharts');
+        $this->load->view('admin/vcharts');
 	}
 	
 }
